@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.table table-bordered table-stripednput{
+  height: 10px;
+}
+
+.Header{
+
+  margin: 50px;
+}
+
+.ID {
+  text-indent: 5%;
+  margin-bottom: 20px ;
+  margin-top: 20px ;
+ 
+}
+.main-content{
+max-width: 97%;
+margin: auto;
+}
+
+.Press{
+  width:200px;
+  height:100px;
+  position: relative;;
+  top:10%;
+  left:92%;
+  
+}
+
+/*Home*/
+.Search{
+  margin-top: 80px;
+ font-size: 20px;
+
+}
+
+.search-botton{
+ width:200px;
+ margin-top: 20px;
+ height:100px;
+ position: relative;
+ top:100%;
+ left:72.3%;
+
+}
+
+/*การยืม+คืน*/
+.Input{
+  font-size: 20px;
+}
+
+.Confirm{
+width:200px;
+ margin-top: 20px;
+ height:100px;
+ position: relative;
+ top:80%;
+ left:72.3%;
+
+
+}
+
+.Cancel{
+  width:10px;
+  height:100px;
+  top:32.6%;
+  left:70%;
+  position: absolute;
+  display: inline-block ;
+
+}
+
+/*เช็ดประวัติ*/
+.Inputhis{
+  font-size: 20px;
+}
+
+.Checkbutton{
+
+  width:200px;
+ margin-top: 20px;
+ height:100px;
+ position: relative;
+ top:100%;
+ left:72.3%;
+
+}
+
+/*เพิ่มหนังสือ*/
+
+.Inputadd{
+font-size: 20px;
+
+}
+
+.Addbutton{
+
+width:40px;
+height:40px;
+position: relative;
+top:70%;
+left:76.5%;
+
+
+}
+
+.Cancelbuttons{
+width:40px;
+height:40px;
+position:  absolute;
+top:33.6%;
+left:71%;
+}
+
+/*สมัครสมาชิก*/
+
+.InputAddress{
+ 
+  top: 40%;
+  left: 18%;
+  width:  100%;
+  height: 100%;
+  position: absolute;
+  top: 76.4%;
+  left: 15.4%;
+  font-size: 20px;
+}
+
+
+.postid{
+ 
+  top: 40%;
+  left: 18%;
+  width:  100%;
+  height: 100%;
+  position: absolute;
+  top: 83.3%;
+  left: 15.4%;
+  font-size: 20px;
+}
+
+.TUM{
+  margin-left:-580px;
+ 
+
+  
+}
+.Confirmbutton{
+  width:200px;
+  height:100px;
+  top: 90%;
+  left: 72.8%;
+  position: absolute;
+ 
+}
+.Cancelbutton{
+
+  width:200px;
+  height:100px;
+  top: 90%;
+  left: 67%;
+  position: absolute;
+  
+  ;
+  
+
+}
