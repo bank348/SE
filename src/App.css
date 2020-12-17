@@ -1,17 +1,18 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -67,8 +68,15 @@ margin: auto;
  position: relative;
  top:100%;
  left:72.3%;
-
 }
+.checksearch-botton{
+  width:200px;
+  margin-top: -100px;
+  height:100px;
+  position: relative;
+  top:100%;
+  left:63%;
+ }
 
 /*การยืม+คืน*/
 .Input{
@@ -89,10 +97,9 @@ width:200px;
 .Cancel{
   width:10px;
   height:100px;
-  top:32.6%;
+  top:41.8%;
   left:70%;
   position: absolute;
-  display: inline-block ;
 
 }
 
@@ -109,6 +116,15 @@ width:200px;
  position: relative;
  top:100%;
  left:72.3%;
+}
+.conbutton{
+
+  width:200px;
+ margin-top: -100px;
+ height:100px;
+ position: absolute;
+ top:100%;
+ left:0%;
 
 }
 
@@ -134,7 +150,7 @@ left:76.5%;
 width:40px;
 height:40px;
 position:  absolute;
-top:33.6%;
+top:43.1%;
 left:71%;
 }
 
@@ -175,7 +191,7 @@ left:71%;
   width:200px;
   height:100px;
   top: 90%;
-  left: 72.8%;
+  left: 74%;
   position: absolute;
  
 }

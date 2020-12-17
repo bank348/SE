@@ -7,7 +7,8 @@ import AddBook from './Components/Add/AddBook'
 import NewRegister from './Components/Register/NewRegister'
 import Search from './Components/Home/Search'
 import HistoryBook from './Components/History/HistoryBook'
-
+import history from './Components/History/history'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
 
@@ -25,6 +26,7 @@ function App() {
             <Route path ="/History"component = {HistoryBook}/>
             <Route path ="/Book" component = {Book}/>
             <Route path ="/Register"component = {NewRegister}/>
+            <Route path = "/checkHistory" exact component = {history} />
             
           </Switch>
       </div>
