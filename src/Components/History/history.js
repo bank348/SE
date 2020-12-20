@@ -4,7 +4,7 @@ export default function History () {
 
     return ( 
     <div className="HistoryCheck">
-        <h2 class="Header">ประวัติการยืมหนังสือ</h2> 
+        <h2 class="Header">รายงานยืมหนังสือ</h2> 
         <div class="Inputhis">
          <from>
          

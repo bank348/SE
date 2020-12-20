@@ -39,6 +39,11 @@ export default function Navbar() {
           <a className="nav-link"> สมัครสมาชิกลูกค้า </a>  
         </li>
       </Link>  
+      <Link to = '/Report'>
+      <li className="nav-item active">
+          <a className="nav-link"> รายงาน </a>  
+        </li>
+      </Link>  
     </ul>
   </div>
 </nav>

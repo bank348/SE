@@ -65,7 +65,7 @@ export default function HistoryBook () {
     <div className="HistoryCheck">
         <h2 class="Header">ประวัติการยืมหนังสือ</h2> 
         <div class="Inputhis">
-         <from onSubmit = {onSubmit}>
+         <form onSubmit = {onSubmit}>
             <input type= "text" placeholder="รหัสสมาชิก" class="from-control" size="120" required
             onChange = {(e) => setmemID(e.target.value)}/>  
             <div className="Checkbutton">
@@ -73,12 +73,14 @@ export default function HistoryBook () {
                 <div className="conbutton"> 
                 <button class="btn btn-success" type="button"href="#" onClick={()=>confirm()}>ยืนยัน</button> </div> 
            </div>
-         </from>
+         </form>
          <ReactBootStrap.Table striped bordered hover>
   <thead>
     <tr>
       <th>ชื่อหนังสือ</th>
       <th>สถานะ</th>
+      <th>วันที่ยืม</th>
+      <th>วันที่คืน</th>
     </tr>
   </thead>
   <tbody>

@@ -84,20 +84,17 @@ margin: auto;
 }
 
 .Confirm{
-width:200px;
- margin-top: 20px;
- height:100px;
- position: relative;
- top:80%;
- left:72.3%;
-
+text-align: right;
+margin-left: 1150px;
+margin-top: 40px;
+width: 100px;
 
 }
 
 .Cancel{
   width:10px;
   height:100px;
-  top:41.8%;
+  top:36.5%;
   left:70%;
   position: absolute;
 
@@ -187,13 +184,14 @@ left:71%;
 
   
 }
-.Confirmbutton{
+/*.Confirmbutton{
   width:200px;
   height:100px;
   top: 90%;
   left: 74%;
   position: absolute;
  
+  
 }
 .Cancelbutton{
 
@@ -202,8 +200,55 @@ left:71%;
   top: 90%;
   left: 67%;
   position: absolute;
-  
-  ;
+}*/
+
+.Confirmbutton{
+  text-align: right;
+}
+.Cancelbutton{
+  width: 100%;
+  max-width: 1400px;
+  padding: 15px;
+  margin: auto;
+  margin-left: 550px;
+  margin-top: -53px;
+}
+
+
+.Input{
+  width: 100%;
+  max-width: 1400px;
+  padding: 15px;
+  margin: auto;
+}
+
+label{
+  margin-right:100% ;
   
 
+}
+
+label.address{
+  margin-right:1320px ;
+}
+
+label.tel{
+  margin-right:1250px ;
+}
+
+label.mail{
+  margin-right:1310px ;
+}
+
+label.id{
+  margin-right:1150px ;
+}
+
+.form-select{
+  margin-right:100% ;
+
+}
+
+.invalid-feedback{
+  text-align: left;
 }
