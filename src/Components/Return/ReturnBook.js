@@ -47,8 +47,10 @@ export default function Returnbook () {
         <h2 class="Header">รายการคืนหนังสือ</h2> 
         <div class="Input">
          <from onSubmit = {onSubmit}>
+            <label className="borrowID">รหัสสมาชิก</label>
             <input type= "text" placeholder="รหัสสมาชิก" class="from-control" size="120" 
             onChange = {(e) => setmemID(e.target.value)}/> <br/> <br/>
+             <label className="borrowNameBook">รหัสหนังสือ</label>
             <input type= "text" placeholder="รหัสหนังสือ" class="from-control" size="120" 
             onChange = {(e) => setbookID(e.target.value)}/> 
             <div className="Confirm">

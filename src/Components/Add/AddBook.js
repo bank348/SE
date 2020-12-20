@@ -56,8 +56,10 @@ export default function Addbook () {
         <h2 class="Header">การเพิ่มหนังสือ</h2> 
         <div class="Inputadd">
          <form onSubmit = {onSubmit}> 
+            <label className="BookName">ชื่อหนังสือ</label>
             <input type= "text" placeholder="ชื่อหนังสือ" class="from-control" size="120" required 
             onChange = {(e) => setData(e.target.value)}/> <br/> <br/>
+            <label className="borrowNameBook">รหัสหนังสือ</label>
             <input type= "text" placeholder="รหัสหนังสือ" class="from-control" size="120" required 
             onChange = {(e) => setPass(e.target.value)}/> <br/> <br/>
             <div className="Addbutton">

@@ -7,6 +7,7 @@ export default function Register (){
       <h2 class="Header">รายงานการยืมหนังสือ</h2> 
       <div class="Inputhis">
       <form>
+        <label className="Date">วันที่</label>
         <input type= "text" placeholder="วันที่ต้องการเช็ก" class="from-control" size="120" />  
         <div className="Checkbutton">
             

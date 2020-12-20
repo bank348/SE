@@ -42,6 +42,7 @@ export default function Home () {
       <div>
         <h2 class="Header">ค้นหาหนังสือ</h2> 
         <div class = "Search" >
+        <label className="search">รหัสหนังสือ</label>
           <form onSubmit = {onSubmit}>
             <div class="search-input">
                   <input type="search" id="search-box" placeholder="Enter Book ID" size ="120"

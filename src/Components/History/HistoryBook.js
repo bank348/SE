@@ -66,6 +66,7 @@ export default function HistoryBook () {
         <h2 class="Header">ประวัติการยืมหนังสือ</h2> 
         <div class="Inputhis">
          <form onSubmit = {onSubmit}>
+            <label className="HisIDmem">รหัสสมาชิก</label>
             <input type= "text" placeholder="รหัสสมาชิก" class="from-control" size="120" required
             onChange = {(e) => setmemID(e.target.value)}/>  
             <div className="Checkbutton">

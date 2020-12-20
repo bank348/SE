@@ -60,6 +60,10 @@ margin: auto;
  font-size: 20px;
 
 }
+label.search{
+  margin-right:1030px ;
+
+}
 
 .search-botton{
  width:200px;
@@ -92,17 +96,33 @@ width: 100px;
 }
 
 .Cancel{
-  width:10px;
+  width:200px;
   height:100px;
-  top:36.5%;
-  left:70%;
-  position: absolute;
+  top:100%;
+  left:100%;
+ margin-top: -36px;
+ margin-left: 1000px;
+
 
 }
 
+label.borrowID{
+  margin-right:1030px ;
+
+}
+
+label.borrowNameBook{
+  margin-right:1030px ;
+
+}
 /*เช็ดประวัติ*/
 .Inputhis{
   font-size: 20px;
+}
+
+label.HisIDmem{
+  margin-right:1040px ;
+
 }
 
 .Checkbutton{
@@ -116,7 +136,7 @@ width: 100px;
 }
 .conbutton{
 
-  width:200px;
+width:200px;
  margin-top: -100px;
  height:100px;
  position: absolute;
@@ -146,11 +166,15 @@ left:76.5%;
 .Cancelbuttons{
 width:40px;
 height:40px;
-position:  absolute;
 top:43.1%;
 left:71%;
+margin-left: 1370px;
+margin-top: -39px;
 }
 
+label.BookName{
+  margin-right:1045px ;
+}
 /*สมัครสมาชิก*/
 
 .InputAddress{
@@ -251,4 +275,9 @@ label.id{
 
 .invalid-feedback{
   text-align: left;
+}
+/*report*/
+
+label.Date{
+margin-right:1100px ;
 }
